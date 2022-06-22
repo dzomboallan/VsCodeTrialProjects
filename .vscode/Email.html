@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Enter a valid email then click on the submit button.</p>
+    <form  action="sample-page-handler.html">
+        <input type="email" id="demo" name="email" />
+        <input type="Submit" />
+    </form>
+    <br />
+    <button onclick="getValues()">Get Value</button>
+    <script type="text/javascript">
+        function getValue() {
+            alert(document.getElementById('demo').value);
+        }
+    </script>
+</body>
+</html>

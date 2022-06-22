@@ -1,0 +1,36 @@
+.title {
+    color:red;
+}
+.subtitle {
+    color:blue;
+}
+#about{
+    color:green;
+}
+h2:hover{
+    color:red;
+}
+li:nth-child(2){
+    color:steelblue;
+}
+/* #google-link:link{
+    color:blue;
+}
+#google-link:visited{
+    color:red;
+} */
+h2 + a{
+    color:red;
+}
+textarea ~ button{
+    color:purple;
+}
+ul > li{
+    color:blue;
+}
+/* ul li{
+    color:green;
+} */
+img[src$="jpg"]{
+    border:10px solid #000000;
+}
